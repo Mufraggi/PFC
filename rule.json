@@ -1,0 +1,34 @@
+{
+    "normal": {
+        "rock": {
+            "key":"r",
+            "win":["scissors"]
+
+        }, "paper": {
+            "key":"p",
+            "win":["rock"]
+
+        }, "scissors": {
+            "key": "s",
+            "win":["paper"]
+        }
+    },
+    "custom": {
+        "rock": {
+            "key":"r",
+            "win":["scissors"]
+
+        }, "paper": {
+            "key":"p",
+            "win":["rock","well"]
+
+        }, "scissors": {
+            "key": "s",
+            "win":["paper"]
+        }, "well": {
+            "key":"w",
+            "win":["scissors", "rock"]
+        }
+
+    }
+}
